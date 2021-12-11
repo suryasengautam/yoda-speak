@@ -1,0 +1,92 @@
+@font-face {font-family: "OctemberScript";
+    src: url("https://db.onlinewebfonts.com/t/7e033da6ebcf38cf86cbf2c0c0924f24.eot"); /* IE9*/
+    src: url("https://db.onlinewebfonts.com/t/7e033da6ebcf38cf86cbf2c0c0924f24.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("https://db.onlinewebfonts.com/t/7e033da6ebcf38cf86cbf2c0c0924f24.woff2") format("woff2"), /* chrome firefox */
+    url("https://db.onlinewebfonts.com/t/7e033da6ebcf38cf86cbf2c0c0924f24.woff") format("woff"), /* chrome firefox */
+    url("https://db.onlinewebfonts.com/t/7e033da6ebcf38cf86cbf2c0c0924f24.ttf") format("truetype"), /* chrome firefox opera Safari, Android, iOS 4.2+*/
+    url("https://db.onlinewebfonts.com/t/7e033da6ebcf38cf86cbf2c0c0924f24.svg#OctemberScript") format("svg"); /* iOS 4.1- */
+}
+
+
+*{
+    --primary-color:
+    #19570cbc;
+    font-family: "OctemberScript";
+}
+
+body {
+    text-align: center;
+}
+
+
+textarea {
+    background-color: none;
+    width: 35rem;
+    height: 20vh;
+    display: block;
+    margin: auto;
+    padding: 1rem;
+    text-align: left;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    /* color: black; */
+
+}
+
+#output {
+    border: 1px solid black;
+    height: 10vh;
+    margin: 1rem;
+    width: 35rem;
+    margin: auto;
+    padding: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 14rem;
+    text-align: left;
+    background-color: white;
+    border-radius: 0.5rem;
+
+}
+
+#btn-translate {
+    background-color: var(--primary-color);
+    margin-top: 1rem;
+    border: none;
+    height: 3.5rem;
+    width: 12.5rem;
+    border-radius: 00.5rem;
+    font-size: large;
+    
+}
+
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.output {
+    font-size: 1.3rem;
+    margin-left: -20rem;
+    margin-bottom: -1rem;
+    margin-bottom: -0.5rem;
+
+}
+.footerh1p {
+    margin-top: -2.4rem;
+    padding: 3rem;
+}
+.footerh1 {
+    padding-top: 1rem;
+    
+}
+
+
+.footer {
+    background-color:var(--primary-color);
+    border-radius: 1rem;
+    display: block;
+    text-align: center;
+    margin: 10rem; 
+}
